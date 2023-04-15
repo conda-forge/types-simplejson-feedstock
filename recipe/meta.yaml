@@ -1,5 +1,5 @@
 {% set name = "types-simplejson" %}
-{% set version = "3.18.0.3" %}
+{% set version = "3.19.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-simplejson-{{ version }}.tar.gz
-  sha256: c05a81a80c5b78567cd374b23d3e2151fec7398513295b656ddb57cb8e99f2fb
+  sha256: 64aff3d151104e0458bfc9d64ffb78efd0157ff740a9f00904a30a5465f7c013
 
 build:
   number: 0
