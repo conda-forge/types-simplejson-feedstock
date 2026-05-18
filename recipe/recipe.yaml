@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.20.0.20260508"
+  version: "3.20.0.20260518"
 
 package:
   name: types-simplejson
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-simplejson/types_simplejson-${{ version }}.tar.gz
-  sha256: 4e7469e2d4f4ec06da6538ed027a8d0831721f2dde13ea9043d2fcddeba5cac5
+  sha256: 298c5b2fc2df3eb128d2077abd5bd1f5b0419dcf72fdf0551b2af2f03b1ff2b3
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation --disable-pip-version-check
